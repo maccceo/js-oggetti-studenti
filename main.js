@@ -2,22 +2,54 @@
 // ESERCIZIO 2: Creare un array di oggetti di studenti. Ciclare su tutti gli studenti e stampare per ognuno nome e cognome
 // ESERCIZIO 3: Dare la possibilità all’utente attraverso 3 prompt di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
-// ESERCIZIO 1
-var studente = {
-	"nome": "Francesco",
-	"cognome": "Zanella",
-	"eta": 22
-};
+// console.log('ESERCIZIO 1');
 
-console.log(studente);
+// var studente = {
+// 	"nome": "Francesco",
+// 	"cognome": "Zanella",
+// 	"eta": 22
+// };
 
-for (var key in studente) {
-	console.log(key + ': ' + studente[key]);
+// console.log(studente);
+
+// for (var key in studente) {
+// 	console.log(key + ': ' + studente[key]);
+// }
+
+
+
+
+
+console.log('ESERCIZIO 2');
+
+var studenti = [
+	studente1 = {
+		"nome": "Francesco",
+		"cognome": "Zanella",
+		"eta": 22
+	}, studente2 = {
+		"nome": "Daniele",
+		"cognome": "Brandino",
+		"eta": 22
+	}, studente3 = {
+		"nome": "Lorenzo",
+		"cognome": "Florenzano",
+		"eta": 23
+	}
+]
+
+console.log('STAMPE EXTRA:');
+console.log(studenti);
+console.log(studente1);
+console.log(studente1.cognome);
+console.log('-------------------');
+
+for (var i = 0; i < studenti.length; i++) {
+	console.log(studenti[i].nome, studenti[i].cognome);
 }
 
 
 
 
 
-// ESERCIZIO 2
-// ESERCIZIO 3
+// console.log('ESERCIZIO 2');
